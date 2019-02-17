@@ -13,6 +13,7 @@
 		FF4DE4B122181531000A4942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4DE4B022181531000A4942 /* Assets.xcassets */; };
 		FF4DE4B422181531000A4942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4DE4B222181531000A4942 /* LaunchScreen.storyboard */; };
 		FF4DE4BE221860C2000A4942 /* UIAlertController+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4DE4BD221860C2000A4942 /* UIAlertController+init.swift */; };
+		FF4DE4C1221874EE000A4942 /* CSVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4DE4C0221874EE000A4942 /* CSVManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FF4DE4B322181531000A4942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4DE4B522181531000A4942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4DE4BD221860C2000A4942 /* UIAlertController+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+init.swift"; sourceTree = "<group>"; };
+		FF4DE4C0221874EE000A4942 /* CSVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				FF4DE4A922181531000A4942 /* AppDelegate.swift */,
 				FF4DE4AB22181531000A4942 /* ViewController.swift */,
-				FF4DE4BD221860C2000A4942 /* UIAlertController+init.swift */,
+				FF4DE4C0221874EE000A4942 /* CSVManager.swift */,
 				FF4DE4AD22181531000A4942 /* Main.storyboard */,
 				FF4DE4B022181531000A4942 /* Assets.xcassets */,
 				FF4DE4B222181531000A4942 /* LaunchScreen.storyboard */,
 				FF4DE4B522181531000A4942 /* Info.plist */,
+				FF4DE4BF221874A2000A4942 /* Extensions */,
 			);
 			path = "Send Email App";
+			sourceTree = "<group>";
+		};
+		FF4DE4BF221874A2000A4942 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF4DE4BD221860C2000A4942 /* UIAlertController+init.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				FF4DE4AC22181531000A4942 /* ViewController.swift in Sources */,
 				FF4DE4AA22181531000A4942 /* AppDelegate.swift in Sources */,
+				FF4DE4C1221874EE000A4942 /* CSVManager.swift in Sources */,
 				FF4DE4BE221860C2000A4942 /* UIAlertController+init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
